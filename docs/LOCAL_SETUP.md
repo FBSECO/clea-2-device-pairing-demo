@@ -11,7 +11,7 @@ The demo runs entirely on your computer. An internet connection is needed only t
 ## Download and start
 
 1. On the GitHub repository page, select **Code → Download ZIP**, then extract the archive. Alternatively, clone the repository with Git.
-2. Open a terminal in the extracted project folder, the one containing `package.json`.
+2. Open a terminal in the extracted project folder, the one containing `package.json`. On macOS, use the **Terminal** app and run `cd "/path/to/extracted-folder"` first, replacing the example path with the folder you extracted.
 3. Install dependencies and start the demo:
 
    ```sh
@@ -19,7 +19,9 @@ The demo runs entirely on your computer. An internet connection is needed only t
    npm run dev
    ```
 
-   On Windows, after `npm install`, you can also run `Avvia-demo.ps1` from PowerShell. If script execution is restricted, use `npm run dev` instead.
+   **macOS:** the commands above are all you need; `npm run dev` starts both local servers. There is no separate Mac launcher.
+
+   **Windows:** after `npm install`, you can also run `Avvia-demo.ps1` from PowerShell. If script execution is restricted, use `npm run dev` instead.
 
 4. Wait until the terminal prints both local addresses, then open:
 
